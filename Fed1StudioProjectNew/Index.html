@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<!-- This is a HTML comment. There are no single line comments. You must open and close the note section You cannot nest comments
+     Doctype Declartation:
+         1) First line of any HTML doc
+         2) Not an HTML tag
+           a. more like instruction for the browser about what version of HTML to use
+         3) Provides the browser with rules for the markup language being used (we use HTML5)
+
+      -->
+<html>
+<!-- Indicates everything inside of these tags in HTML -->
+<head>
+    <!-- Head Tags:
+        1) hold meta data (info about info) about the HTML document
+        2)Anything inside of the head tag will not be displayed to the user
+            a. Title Tags- page title, used in the browser tab, bookmark, and by search engines.
+            b. Meta tags- provide info about the HTML doc that is importattn for SEO (Search Engine Optimization)
+            c. Link Tags- provide access to CSS files
+            d. Scprit Tags-Provide access to JS files
+        -->
+    <meta charset="utf-8" />
+    <title>web sandbox (FED1 class site)</title>
+    <meta name="description" content="this is a site description (140 Characters)   />
+    <meta name="keywords" content="learning,HTML,CSS,FED1" />
+    <meta name="author" content="Enrique Garcia" />
+</head>
+<body>
+    <!--
+        Body Tags:
+        1)Second tag nested directly inside of the HTML tag
+        2) contains the content of the page that will be displayed to the user
+        3) can also contain JS code or links to JS files (usually at the bottom)
+        4) Inside the body tags are structrual tags that markup and provided structure to content
+        -->
+    <header>
+        <!-- A header is a container at the toop of a page or section -->
+        <h1>web sandbox</h1>
+        <p>Hello,world!</p>
+    </header>
+    <!--
+        Later we will add a nav element here.
+        A <nav> is a container made for links, usually limited to main navigation links.
+        -->
+    <main>
+        <!--
+            a main is the container for the primary page content and should only be used once per page-->
+        <section>
+            <!-- A Section is a generic section of a page or a block of content. It is for thematic grouping. -->
+            <article>
+                <h2>Front End Development</h2>
+                <p>
+                    Front Development is the tier of fullstack web development that development
+                    that deals with visual element of an application that a user interacts with.
+                    The main three used in frontend development are HTML,CSS, and Javascript.these are the only
+                    Languages a browser can understand.
+                    <br />
+                    IF you to compare this tier of development to a human body, it woild be like the skin.
+                </p>
+                <section>
+                    <img src="images/HTML_logo.png" />
+                    <h3>HTML</h3>
+                    <p>
+                        Hyper Markup language (HTML) is used to define the structure of the content on a web page.
+                        It is arguably the most important fronted develpoment language, because the other two languages
+                        use HTML elements to perform thier functions.
+                    </p>
+                </section>
+                <section>
+                    <img src="images/CSS_logo.png" />
+                    <h3>CSS</h3>
+                    <p>
+                        Cascading stylesheets (CSS) is used for formatting and layout of web pages.
+                        It was introduced as a way to seperate the concerns of markup (HTML) and formatting
+                        (CSS) into separate files.
+                    </p>
+                </section>
+                <section>
+                    <img src="images/JS_logo.png" />
+                    <h3>JS</h3>
+                    <p>
+                        JavaScript (JS) allows us to make our web page more interactrive. its primarly
+                        used to provide the ability to perform programming logic in the frontend, react
+                        to events, and validate form data.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2> This is Lorem Ipsum (sample text) </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                </p>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                </p>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <!--
+            An Aside holds content that is indirectly related to the main content of the page.-->
+        <h2>Key Terms</h2>
+        <div>
+            <p> This is an area whre you can list key terms and important notes.</p>
+        </div>
+    </aside>
+    <footer>
+        <!-- footer is a container at the bottom of a page or section and usually provides closing info.
+            -->
+        &copy;copyright 2021 Enrique Garcia
+    </footer>
+</body>
+</html>
